@@ -1,7 +1,7 @@
-exports.version = 1.31;
-exports.apiRequired = 11.6;
-exports.description = "Whitelist plugin with support for single IPs, CIDR ranges, and wildcard notation (e.g., 98.243.*.*). Localhost (127.0.0.1 and ::1) is always allowed.";
-exports.repo = "MEMediaEntertainment/hfs-whitelist-plugin";
+exports.version = 1.32
+exports.apiRequired = 8.891
+exports.description = "Whitelist plugin with support for single IPs, CIDR ranges, and wildcard notation (e.g., 98.243.*.*). Localhost (127.0.0.1 and ::1) are always allowed."
+exports.repo = "MEMediaEntertainment/hfs-whitelist-plugin"
 exports.preview = ["https://camo.githubusercontent.com/49e8d9d754a709f5a9263f14fdf7e25ddf8e75b06629736d6b33cb30cf5af01f/68747470733a2f2f692e6962622e636f2f7477647a775154632f73637265656e73686f742e706e67"]
 
 exports.config = {
